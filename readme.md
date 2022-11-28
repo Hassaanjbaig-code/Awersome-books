@@ -31,7 +31,10 @@
 - Twitter: [@twitterhandle](https://twitter.com/AllassaneDicko0/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/allassane-dicko-744aaa224)
 
-👤 **S**
+👤 **Hassaan Baig**
+
+- GitHub: [@githubhandle](https://github.com/Hassaanjbaig-code)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hassaan-baig-855788241/)
 
 
 ## 🔭 Future Features <a name="future-features"></a>
