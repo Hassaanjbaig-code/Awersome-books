@@ -38,13 +38,13 @@ let hr = document.createElement('hr')
   currendID = currendID + 1
 }
 
+//  Add the book in the local storage 
+
 window.addEventListener("beforeunload", () => {
     window.localStorage.setItem("Collection", JSON.stringify(collection))
 })
 let list = JSON.parse(window.localStorage.getItem("Collection"));
 list.forEach((books) => {
-    // document.getElementById("Title").textContent = books.title
-    // document.getElementById("Author").textContent = books.author
     insert(books.title, books.author)
     console.log(books)
 });
