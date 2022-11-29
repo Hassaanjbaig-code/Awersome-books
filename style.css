@@ -1,5 +1,11 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  font-family: 'lato', sans-serif;
+}
+
+.list-book li {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
