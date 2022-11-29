@@ -7,7 +7,7 @@ let currendID = 0;
 let collection = [];
 
 function deleteBook(id) {
-  document.getElementById(id).remove();
+  // document.getElementById(id).remove();
 
   // id = index for collection list
   collection = collection.filter((book) => book.id !== id);
