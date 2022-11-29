@@ -7,7 +7,7 @@ let currendID = 0;
 let collection = [];
 
 function deleteBook(id) {
-  document.getElementById(id).remove();
+  // document.getElementById(id).remove();
 
   // id = index for collection list
   collection = collection.filter((book) => book.id !== id);
@@ -52,7 +52,9 @@ if (list !== null) {
 }
 
 button.addEventListener('click', () => {
-  const Title = document.getElementById('Title').value;
-  const Author = document.getElementById('Author').value;
-  insert(Title, Author);
+  const Title = document.getElementById('Title');
+  const Author = document.getElementById('Author');
+  insert(Title.value, Author.value);
+  Title.textContent = '';
+  Author.textContent = '';
 });
