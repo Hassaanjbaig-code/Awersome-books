@@ -55,6 +55,6 @@ button.addEventListener('click', () => {
   const Title = document.getElementById('Title');
   const Author = document.getElementById('Author');
   insert(Title.value, Author.value);
-  Title.textContent = ""
-  Author.textContent = ""
+  Title.textContent = '';
+  Author.textContent = '';
 });
