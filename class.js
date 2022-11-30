@@ -44,10 +44,17 @@ listBook = new ListBooks();
 
 const button = document.querySelector('#button');
 
-button.addEventListener('click', () => {
+button.addEventListener('click', (event) => {
   const title = document.getElementById('Title').value;
   const author = document.getElementById('Author').value;
-  listBook.add(title, author);
+  const error = document.getElementById('error');
+  if (title.length === 0 || author.length === 0) {
+    error.classList.remove('hidden');
+    event.preventDefault();
+  } else {
+    error.classList.add('hidden');
+    listBook.add(title, author);
+  }
 });
 
 //  Add the book in the local storage
