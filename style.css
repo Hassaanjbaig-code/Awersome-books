@@ -80,6 +80,11 @@ form {
   align-items: flex-end;
 }
 
+#Title,
+#Author {
+  width: 14.6rem;
+}
+
 form button {
   width: 60px;
 }
