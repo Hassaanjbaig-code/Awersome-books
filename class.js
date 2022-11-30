@@ -47,13 +47,13 @@ const button = document.querySelector('#button');
 button.addEventListener('click', (event) => {
   const title = document.getElementById('Title').value;
   const author = document.getElementById('Author').value;
-  const error = document.getElementById("error");
-  if (title.length == 0 || author.length == 0) {
-    error.classList.remove("hidden");
+  const error = document.getElementById('error');
+  if (title.length === 0 || author.length === 0) {
+    error.classList.remove('hidden');
     event.preventDefault();
-} else {
-      error.classList.add("hidden");
-      listBook.add(title, author);
+  } else {
+    error.classList.add('hidden');
+    listBook.add(title, author);
   }
 });
 
