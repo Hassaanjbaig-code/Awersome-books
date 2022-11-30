@@ -8,6 +8,47 @@ body {
   justify-content: center;
 }
 
+header {
+  border: 1px solid black;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h4 {
+  font-size: 30px;
+  margin-left: 1%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li:hover {
+  color: blue;
+}
+
+.navbar li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.navbar li:nth-child(1),
+.navbar li:nth-child(2),
+.navbar li:nth-child(3) {
+  padding: 12px;
+  font-size: 20px;
+}
+
+
 .list-book {
   width: 90%;
   border: 5px solid #000;
