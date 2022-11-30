@@ -8,8 +8,14 @@ body {
   justify-content: center;
 }
 
+.hidden {
+  display: none;
+}
+
 header {
-  border: 1px solid black;
+  width: 90%;
+  margin-top: 12px;
+  border: 2px solid black;
 }
 
 nav {
@@ -19,9 +25,10 @@ nav {
   align-items: center;
 }
 
-nav h4 {
+nav h1 {
   font-size: 30px;
-  margin-left: 1%;
+  padding-left: 1%;
+  margin: 0;
 }
 
 .navbar {
@@ -30,6 +37,8 @@ nav h4 {
 
 .navbar li {
   list-style: none;
+  padding: 12px;
+  font-size: 20px;
 }
 
 .navbar li:hover {
@@ -41,18 +50,17 @@ nav h4 {
   border-right: 1px solid black;
 }
 
-.navbar li:nth-child(1),
-.navbar li:nth-child(2),
-.navbar li:nth-child(3) {
-  padding: 12px;
-  font-size: 20px;
-}
-
-
 .list-book {
-  width: 90%;
+  width: 100%;
   border: 5px solid #000;
   padding: 0;
+}
+
+section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form {
@@ -92,4 +100,14 @@ h2 {
 
 .list-book li button {
   height: 30px;
+}
+
+footer {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 12px;
+  width: 90%;
+  display: flex;
+  padding: 12px 32px 12px 32px;
+  border: 2px solid #000;
 }
